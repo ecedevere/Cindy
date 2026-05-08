@@ -4,6 +4,10 @@ This is a project for course Fundamentals of Web Applications at Oulu University
 
 This is a personal website about cat Cindy. She is a young Siberian Neva Masquerade cat and she lives in Norway.
 
+## Video
+
+- [Youtube](https://youtu.be/qjjFM7Yx5HE)
+
  
 ## Pages
  

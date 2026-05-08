@@ -1,0 +1,69 @@
+/* main */
+.main h1 {
+  font-size: 32px;
+  margin-bottom: 8px;
+  padding-top: 32px;
+  text-align: center;
+}
+
+.main p {
+    color: #888888;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+/* cards */
+
+.instagram,
+.email,
+.youtube {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #ffffff;
+  border: 1px solid #eeeeee;
+  border-radius: 10px;
+  padding: 20px 24px;
+  margin-bottom: 16px;
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.instagram div p,
+.email div p,
+.youtube div p {
+  font-size: 12px;
+  color: #aaaaaa;
+  margin-bottom: 4px;
+}
+
+.instagram a,
+.email a,
+.youtube a {
+  font-size: 15px;
+  color: #4f8ef7;
+  transition: color 0.2s;
+}
+
+.instagram a:hover,
+.email a:hover,
+.youtube a:hover {
+  color: #3a7ae0;
+}
+
+/* responsive */
+@media (max-width: 600px) {
+  .main h1 {
+    font-size: 24px;
+  }
+}
+/* dark */
+
+body.dark .instagram,
+body.dark .email,
+body.dark .youtube {
+  background-color: #16213e;
+  border-color: #222244;
+}

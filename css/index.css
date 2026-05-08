@@ -1,0 +1,126 @@
+/* main */
+ 
+.main {
+  flex: 1;
+  padding: 48px 32px;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+/* bio */
+.bio {
+  text-align: center;
+  padding: 48px 0;
+  border-bottom: 1px solid #eeeeee;
+  margin-bottom: 48px;
+}
+
+.image {
+width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 24px;
+  border: 2px solid #4f8ef7;
+}
+
+.bio h1 {
+  font-size: 36px;
+  margin-bottom: 8px;
+}
+
+.highlight {
+    font-size: 16px;
+    color: #4f8ef7;
+    margin-bottom: 16px;
+}
+
+.bioText {
+  font-size: 15px;
+  color: #4b4a4a;
+  max-width: 500px;
+  margin: 0 auto 28px auto;
+  line-height: 1.7;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: #4f8ef7;
+  color: #ffffff;
+  border-radius: 6px;
+  font-size: 15px;
+  transition: background-color 0.2s;
+}
+ 
+.btn:hover {
+  background-color: #3a7ae0;
+}
+
+/*about, history*/
+.about, .history{
+  margin-bottom: 48px;
+}
+
+.about h2, .history h2 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.about p, .history p {
+  font-size: 15px;
+  color: #666666;
+  line-height: 1.8;
+  max-width: 620px;
+}
+
+/* things */
+.things h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.thingsDiv ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.thingsDiv li {
+  padding: 10px 24px;
+  background-color: #eef3ff;
+  color: #4f8ef7;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/*responsive*/
+
+@media (max-width: 600px) {
+
+    .main {
+    padding: 24px 16px;
+      }
+
+  .bio h1 {
+    font-size: 26px;
+  }
+}
+
+/*dark  mode */
+body.dark .bioText {
+  color: #cccccc;
+}
+
+body.dark .about p,
+body.dark .history p {
+  color: #aaaaaa;
+}
+
+body.dark .thingsDiv li {
+  background-color: #16213e;
+}
